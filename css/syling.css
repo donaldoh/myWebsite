@@ -1,0 +1,308 @@
+/*font*/
+html{
+    font-family: 'Cabin', sans-serif;
+    background-color: #e2d9c8;
+}
+/*default background for all pages*/
+.landing-bg{
+    background: fixed url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;   
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Styling  for the navbar*/
+li, a{
+    color: #76323f;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 2%;
+}
+
+.navbar_content{
+    list-style: none;
+}
+.navbar_content li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_content li a{
+    transition: all 0.5s ease 0s;
+
+}
+.navbar_content li a:hover {
+    color:#FF8552;
+}
+
+h2{
+    color: #76323f;
+    font-size: 55px;
+    font-weight: 1000;
+}
+p{
+    font-size: 20px;
+    color: #816b74;
+}
+
+
+.content-home{
+    max-width: 650px;
+    margin: 5% 20%;
+
+}
+/* give a dark background label to see text easier*/
+.content-home p{
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+/*styling for home page webapp button*/
+.app_butt{
+    color:#39393a;
+    background:#f38c3f;
+    text-transform: uppercase;
+    font-weight: 1000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;    
+}
+.app_butt:hover{
+    background:#c57f4a;
+}
+
+
+/*Styling for about me page*/
+.title-about {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-width: 700px;
+    border: 0;
+    border-bottom: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+    
+}
+/*Head shot picture border*/
+.headshot {
+    display: block;
+    width: 30vw;
+    height: 30vw;
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 320px;
+    min-height: 320px;
+    border-radius: 50%;
+    border: 4px solid #c09f80;
+    margin-left: auto;
+    margin-right: auto;  
+    background-size: cover;
+       
+}
+
+.test{
+    padding-bottom: 10px;
+}
+
+.contact-contact{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+/* Table styling*/
+.about-table span{
+    text-align: center;
+    color:#39393a;
+    background:#c09f80;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    border-radius: 10px;
+    display: table;
+    margin: 0 auto;  
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+/* table header*/
+.about-table th{
+    color: black;
+}
+th, td{
+    padding:10px;
+    text-align: left;
+}
+/* about me paragraph*/
+.about-p{
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.about-table{
+    overflow-x: auto;
+}
+
+.inner-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-content{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*My work styling*/
+
+.display{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* project containers*/
+.proj_container{
+    background: white;
+    width: 300px;
+    margin: 50px;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+}
+/* images  for thhe project containers*/
+.proj_container-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+/* Heading, text and button styling for projects page*/
+.proj_container h3{
+    padding: 5px;
+}
+.proj_container p{
+    padding: 5px;
+}
+.proj_container a{
+    display: block;
+    margin: 30px 60px;
+}
+/*pictures for project containers*/
+.pic1{
+    background-image: url('../images/blobs.png');
+}
+.pic2{
+    background-image: url('../images/studiopic.png');
+}
+.pic3{
+    background-image: url('../images/brutepic.png');
+}
+/*dark shadow hover effect on the projects*/
+.proj_container:hover{
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+/*Styling for hobbies page*/
+.container-hobby{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*Dark background for hobbies*/ 
+.card-hobby{
+    background: black;
+    width: 80%;
+    margin: 50px;
+    border-radius: 20px;
+    opacity: .8;
+    overflow-wrap: break-word;
+}
+.card-hobby a{
+    display: block;
+    margin: 20px 50px;
+}
+.card-hobby h3{
+    padding: 5px;
+}
+.card-hobby p{
+    padding: 5px;
+}
+
+.hobby-title{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+/*===================================*/
+
+
+
+  .hobbyseccontainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  
+  .wood-container {
+
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: white;
+  }
+  
+
+
+.projectimage{
+    max-width: 100%;
+    border-radius: 10px;
+}
+  section#hobbysec p {
+    padding-top: 5px;
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: 0.01em;
+  }
+
+#hobbysec{
+    color: white;
+    font-size: 5vh;
+    margin-bottom: 20px;
+}
+
+.wood-container h2 {
+    margin: 25px;
+    font-size: 5vh;
+  }
+
+section#hobbysec p {
+    padding-top: 5px;
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: #e2d9c8;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
